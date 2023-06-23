@@ -4,7 +4,7 @@ kind: Pod
 metadata:
   name: nginx04
   annotations:
-    xyz_com_ecommerce_roboshop/component: nginx
+    xyz-com-ecommerce-roboshop/component: nginx
 spec:
   containers:
   - name: nginx
