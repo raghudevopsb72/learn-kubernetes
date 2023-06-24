@@ -39,6 +39,7 @@ kind: Service
 metadata:
   name: nginx-lb
 spec:
+  type: LoadBalancer
   selector:
     tier: frontend
     app: nginx
