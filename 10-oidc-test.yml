@@ -2,6 +2,8 @@ apiVersion: v1
 kind: ServiceAccount
 metadata:
   name: test1
+  annotations:
+    eks.amazonaws.com/role-arn: arn:aws:iam::633788536644:role/oidc-test
 ---
 apiVersion: v1
 kind: ServiceAccount
